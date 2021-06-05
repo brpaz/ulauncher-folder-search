@@ -1,15 +1,15 @@
-# folder-search
+# Ulauncher folder search
 
 > Search folders using [Gnome Tracker](https://wiki.gnome.org/Projects/Tracker) from Ulauncher
 
 [![Ulauncher Extension](https://img.shields.io/badge/Ulauncher-Extension-yellowgreen.svg?style=for-the-badge)](https://ext.ulauncher.io/)
-[![CI Status](https://img.shields.io/github/workflow/status/brpaz/folder-search/CI?color=orange&label=actions&logo=github&logoColor=orange&style=for-the-badge)](https://github.com/brpaz/folder-search)
-[![License](https://img.shields.io/github/license/brpaz/folder-search.svg?style=for-the-badge)](https://github.com/brpaz/folder-search/blob/master/LICENSE)
+[![CI Status](https://img.shields.io/github/workflow/status/brpaz/ulauncher-folder-search/CI?color=orange&label=actions&logo=github&logoColor=orange&style=for-the-badge)](https://github.com/brpaz/folder-search)
+[![License](https://img.shields.io/github/license/brpaz/ulauncher-folder-search.svg?style=for-the-badge)](LICENSE)
 
 
 ## Demo
 
-TODO Add demo here.
+![demo](demo.gif)
 
 ## Requirements
 
@@ -27,12 +27,12 @@ https://github.com/brpaz/folder-search
 
 ## Usage
 
-Explain how to use the extension here.
+* Type `fs <query>` on Ulauncher to search.
 
 ## Development
 
 ```
-git clone https://github.com/brpaz/folder-search
+git clone https://github.com/brpaz/ulauncher-folder-search
 make link
 ```
 
