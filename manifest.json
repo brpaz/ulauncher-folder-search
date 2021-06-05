@@ -1,0 +1,35 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Folder Search",
+  "description": "Search folders using Gnome Tracker3",
+  "developer_name": "Bruno Paz",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.3
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "Folder Search",
+      "default_value": "fs"
+    },
+    {
+      "id": "default_terminal",
+      "type": "select",
+      "name": "Default Terminal",
+      "description": "This setting will be used when using the 'Open in terminal' option",
+      "default_value": "gnome",
+      "options": [
+        {
+          "value": "gnome",
+          "text": "Gnome terminal"
+        },
+        {
+          "value": "tilix",
+          "text": "Tilix"
+        }
+      ]
+    }
+  ]
+}
